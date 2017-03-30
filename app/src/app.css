@@ -55,3 +55,26 @@
 i{
     padding-left: 5px;
 }
+
+@media only screen and (min-width: 300px) {
+    .card_area{
+      flex-direction: column;
+    }
+    .card{
+      margin: auto;
+      width: 70%;
+    }
+    .card_image{
+      width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+  .card_area{
+    flex-direction: row;
+  }
+  .card{
+    width:300px;
+    margin: 0;
+  }
+}
